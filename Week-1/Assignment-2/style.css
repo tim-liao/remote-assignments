@@ -1,6 +1,6 @@
-* {
+/* * {
   max-width: 1200px;
-}
+} */
 body {
   /* text-align: center; */
   margin: 0px;
@@ -53,9 +53,23 @@ footer span {
 .content-box {
   color: #fff;
   padding: 0px 50px 100px;
-  margin: 10px;
+  /* margin: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 1200px;
   background: #3db5da;
 }
+.content-box-one,
+.content-box-three {
+  margin-right: 10px;
+  margin-left: auto;
+}
+.content-box-two,
+.content-box-four {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
 /* .main-footer {
   background-color: lightblue;
 } */
