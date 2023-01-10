@@ -56,8 +56,9 @@ footer span {
   /* margin: 10px; */
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   background: #3db5da;
+  max-width: 600px;
 }
 .content-box-one,
 .content-box-three {
@@ -69,7 +70,10 @@ footer span {
   margin-right: auto;
   margin-left: 10px;
 }
-
+/* .containerOneAndThree.containerTwoAndFour {
+  width: 100%;
+  max-width: 600px;
+} */
 /* .main-footer {
   background-color: lightblue;
 } */
