@@ -1,0 +1,87 @@
+/* * {
+  max-width: 1200px;
+} */
+body {
+  /* text-align: center; */
+  margin: 0px;
+}
+.main-header {
+  background: gray;
+  margin: 0px;
+  height: 5vh;
+}
+
+#section-title {
+  text-align: center;
+}
+
+#heading {
+  margin: 0px;
+  background-color: lightblue;
+  height: 15vh;
+}
+p {
+  color: rgb(0, 0, 0);
+}
+
+.main-nav,
+.title {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.item {
+  margin: 0px;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  /* padding: 10px; */
+}
+footer button {
+  background-color: lightblue;
+  padding: 10px;
+  border: none;
+}
+
+/*找來的*/
+.container,
+.footerContainer {
+  background: #fff;
+  margin: 15px;
+  height: 275px;
+}
+
+.content-box {
+  border-radius: 5px;
+  color: #fff;
+  padding: 0px 50px 100px;
+  /* margin: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* max-width: 1200px; */
+  background: #3db5da;
+  max-width: 600px;
+}
+.content-box-one,
+.content-box-three {
+  margin-right: 10px;
+  margin-left: auto;
+}
+.content-box-two,
+.content-box-four {
+  margin-right: auto;
+  margin-left: 10px;
+}
+/* .containerOneAndThree.containerTwoAndFour {
+  width: 100%;
+  max-width: 600px;
+} */
+/* .main-footer {
+  background-color: lightblue;
+} */
+
+/*橫向致中可以用auto*/
+/* https://teamtreehouse.com/library/css-layout/maxwidth 隨著螢幕大小變動的用法 */
+/* https://teamtreehouse.com/library/css-flexbox-layout/controlling-the-direction-of-flex-items 改變佈局方向可以用flex box */
+/* https://teamtreehouse.com/library/css-flexbox-layout/building-a-navigation-bar-with-flexbox ０７：０５秒有教怎麼把字分到兩側justify-content:space-between */
