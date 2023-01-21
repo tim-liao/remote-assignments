@@ -1,0 +1,11 @@
+extends layout
+
+block content 
+  if name
+    h2 #{name}
+    
+  else
+    form(action='/myName',method='post')
+      label PLease enter you name:
+        input(type='text',name='username')
+      button(type='submit') Submit

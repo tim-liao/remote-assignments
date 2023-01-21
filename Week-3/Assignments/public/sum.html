@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      ///////AJAX:AssignmentThreeNumberThree////////
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (xhr.status === 200 && xhr.readyState === 4) {
+          document.getElementById("AThreeNumberThree").innerHTML +=
+            xhr.responseText;
+        }
+      };
+      xhr.open("GET", `data?number=10`);
+      xhr.send();
+    </script>
+  </head>
+  <body>
+    <input type="text" id="name" />
+    <button id="aaa">click here</button>
+    <div id="number"></div>
+    <p id="AThreeNumberThree">AssignmentThreeNumberThree :</p>
+  </body>
+
+  <script src="ajax.js"></script>
+</html>
