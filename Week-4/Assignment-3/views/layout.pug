@@ -1,0 +1,9 @@
+doctype html
+html(lang="en")
+  head
+  body
+    if message
+      h1 #{message}
+    div#wrongMessage(style="color: red")
+
+    block content

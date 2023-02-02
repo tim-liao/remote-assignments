@@ -1,0 +1,34 @@
+extends layout
+
+block content 
+    form#sign-in-form
+      div
+        div
+        h2 Sign in
+        div 
+          label(for='email') Email
+        div
+          input#email-sign-in(type='email', name='emailSignIn', placeholder='Your email sign in..')
+      div
+        div
+          label(for='password') Password
+        div
+          input#password-sign-in(type='password', name='passwordSigIn', placeholder='Your password sign in..')
+      div
+        input#sign-in(type='submit', value='Sign in')
+    form#sign-up-form
+      div
+        div
+        h2 Sign up
+        div
+          label(for='email') Email
+        div
+          input#email-sign-up(type='email', name='emailSignUp', placeholder='Your email sign up..')
+      div
+        div
+          label(for='password') Password
+        div
+          input#password-sign-up(type='password', name='passwordSignUp', placeholder='Your password sign up..')
+      div
+        input(type='submit', value='Sign up')
+    script(src="ajax.js")
