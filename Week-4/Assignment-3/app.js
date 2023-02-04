@@ -1,11 +1,14 @@
-const express = require("express");
+// const express = require("express");
+import express from "express";
 const app = express();
 
 app.use(express.static("public"));
 app.set("view engine", "pug");
 
-const apiRoutes = require("./routes/api");
-const mainRoutes = require("./routes/index");
+// const apiRoutes = require("./routes/api");
+// const mainRoutes = require("./routes/index");
+import apiRoutes from "./routes/api.js";
+import mainRoutes from "./routes/index.js";
 
 //測試next的用法以及了解middleware的功用
 // const requestTime = function (req, res, next) {

@@ -1,5 +1,7 @@
-const express = require("express");
-const cookieParser = require("cookie-parser");
+// const express = require("express");
+import express from "express";
+// const cookieParser = require("cookie-parser");
+import cookieParser from "cookie-parser";
 const route = express.Router();
 
 route.use(cookieParser());
@@ -28,4 +30,4 @@ route.post("/goodbye", (req, res) => {
   res.redirect("/");
 });
 
-module.exports = route;
+export default route;
